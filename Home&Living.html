@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>E-shop</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css" type="text/css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato&family=Merriweather&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <div class="logo">
+                <a href="Index.html" class="home-link">
+                    <img src="./media/products-new/logo.jpeg-removebg-preview (2).png" alt="Beer Shop">
+                </a>
+            </div>
+            <div class="search">
+                <form>
+                    <input type="text" placeholder="Search here" required />
+                    <button type="submit">Search</button>
+                </form>
+               
+            </div>
+            <div class="user-actions">
+                <a href="./Login.html">Login</a>
+                <a href="./Cart.html">Cart</a>
+                <div class="language-selector">
+                  <select name="languages" id="language-dropdown">
+                      <option value="en">EN</option>
+                      <option value="es">ES</option>
+                      <option value="fr">FR</option>
+                  </select>
+                </div>
+            </div>
+        </div>
+      </header>
+      <nav class="navigation">
+          <div class="wrapper">
+              <ul>
+                  <li><a href="./Index.html">Home</a></li>
+                  <li class="dropdown-parent">
+                      <a href="./Shop.html" class="category-link">Categories</a>
+                      <button class="mobile-categories-btn">☰</button>
+                      <ul class="dropdown">
+                          <li><a href="./Electronics.html">Electronics</a></li>
+                          <li><a href="./Fashion.html">Women's Fashion</a></li>
+                          <li><a href="./MenFashion.html">Men's Fashion</a></li>
+                          <li><a href="./Home&Living.html">Home & Living</a></li>
+                      </ul>
+                  </li>
+                  <li><a href="./Delivery.html">Delivery</a></li>
+                  <li><a href="./ContactUs.html">Contact Us</a></li>
+              </ul>
+          </div>
+      </nav>
+      
+      
+  <section class="products-group">
+  <div class="wrapper">
+    <div class="hero">Bedding</div>
+    <ul>
+      <li itemscope itemtype="http://schema.org/Product" class="product-item">
+        <div class="product-image">
+            <img itemprop="image" src="./media/products-new/Bedding1.jpg" alt="Energizer AAA Batteries"/>
+        </div>
+        <div class="product-info">
+            <strong itemprop="name">MooMee</strong>
+            <span itemprop="price" class="price">$100</span>
+        </div>
+        <div itemprop="description" class="product-description">
+            Duvet Cover
+        </div>
+        <div itemprop="availability" class="availability">
+           In stock
+        </div>
+        <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+        <button type="button" class="add-to-cart-btn">Add to Cart</button>
+    </li>
+   
+        <li itemscope itemtype="http://schema.org/Product" class="product-item">
+          <div class="product-image">
+              <img itemprop="image" src="./media/products-new/Bedding2.jpg" alt="Energizer AAA Batteries"/>
+          </div>
+          <div class="product-info">
+              <strong itemprop="name">Utopia Bedding</strong>
+              <span itemprop="price" class="price">$26</span>
+          </div>
+          <div itemprop="description" class="product-description">
+            Comforter Duvet
+          </div>
+          <div itemprop="availability" class="availability">
+             In stock
+          </div>
+          <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+          <button type="button" class="add-to-cart-btn">Add to Cart</button>
+      </li>
+
+
+      <li itemscope itemtype="http://schema.org/Product" class="product-item">
+        <div class="product-image">
+            <img itemprop="image" src="./media/products-new/Bedding3.jpg" alt="Energizer AAA Batteries"/>
+        </div>
+        <div class="product-info">
+            <strong itemprop="name">Utopia</strong>
+            <span itemprop="price" class="price">$55</span>
+        </div>
+        <div itemprop="description" class="product-description">
+            Quilted Fitted
+        </div>
+        <div itemprop="availability" class="availability">
+           In stock
+        </div>
+        <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+        <button type="button" class="add-to-cart-btn">Add to Cart</button>
+    </li>
+
+    <li itemscope itemtype="http://schema.org/Product" class="product-item">
+        <div class="product-image">
+            <img itemprop="image" src="./media/products-new/Bedding4.jpg" alt="GoPro HERO12 "/>
+        </div>
+        <div class="product-info">
+            <strong itemprop="name">Utopia Bedding</strong>
+            <span itemprop="price" class="price">$21</span>
+        </div>
+        <div itemprop="description" class="product-description">
+           Queen Bed Sheets
+        </div>
+        <div itemprop="availability" class="availability">
+           In stock
+        </div>
+        <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+        <button type="button" class="add-to-cart-btn">Add to Cart</button>
+    </li>
+
+
+    <li itemscope itemtype="http://schema.org/Product" class="product-item">
+        <div class="product-image">
+            <img itemprop="image" src="./media/products-new/Bedding5.jpg" alt="GoPro HERO12 "/>
+        </div>
+        <div class="product-info">
+            <strong itemprop="name"> YUSOKI </strong>
+            <span itemprop="price" class="price">$26</span>
+        </div>
+        <div itemprop="description" class="product-description">
+            Double Sided
+        </div>
+        <div itemprop="availability" class="availability">
+           In stock
+        </div>
+        <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+        <button type="button" class="add-to-cart-btn">Add to Cart</button>
+    </li>
+
+    <li itemscope itemtype="http://schema.org/Product" class="product-item">
+        <div class="product-image">
+            <img itemprop="image" src="./media/products-new/Bedding6.jpg" alt="GoPro HERO12 "/>
+        </div>
+        <div class="product-info">
+            <strong itemprop="name">HomeMate</strong>
+            <span itemprop="price" class="price">$29</span>
+        </div>
+        <div itemprop="description" class="product-description">
+            Blanket Electric
+        </div>
+        <div itemprop="availability" class="availability">
+           In stock
+        </div>
+        <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+        <button type="button" class="add-to-cart-btn">Add to Cart</button>
+    </li>
+
+    <li itemscope itemtype="http://schema.org/Product" class="product-item">
+        <div class="product-image">
+            <img itemprop="image" src="./media/products-new/Bedding7.jpg" alt="GoPro HERO12 "/>
+        </div>
+        <div class="product-info">
+            <strong itemprop="name">L'AGRATY</strong>
+            <span itemprop="price" class="price">$15</span>
+        </div>
+        <div itemprop="description" class="product-description">
+            Weighted Blanket
+        </div>
+        <div itemprop="availability" class="availability">
+           In stock
+        </div>
+        <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+        <button type="button" class="add-to-cart-btn">Add to Cart</button>
+    </li>
+
+
+    <li itemscope itemtype="http://schema.org/Product" class="product-item">
+        <div class="product-image">
+            <img itemprop="image" src="./media/products-new/Bedding8.jpg" alt="GoPro HERO12 "/>
+        </div>
+        <div class="product-info">
+            <strong itemprop="name">MooMee </strong>
+            <span itemprop="price" class="price">$300</span>
+        </div>
+        <div itemprop="description" class="product-description">
+            Bedding Sheet
+        </div>
+        <div itemprop="availability" class="availability">
+           In stock
+        </div>
+        <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+        <button type="button" class="add-to-cart-btn">Add to Cart</button>
+    </li>
+
+
+    <li itemscope itemtype="http://schema.org/Product" class="product-item">
+        <div class="product-image">
+            <img itemprop="image" src="./media/products-new/Bedding9.jpg" alt="GoPro HERO12 "/>
+        </div>
+        <div class="product-info">
+            <strong itemprop="name">BESTOUCH </strong>
+            <span itemprop="price" class="price">$74</span>
+        </div>
+        <div itemprop="description" class="product-description">
+            Duvet Cover 
+        </div>
+        <div itemprop="availability" class="availability">
+           In stock
+        </div>
+        <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+        <button type="button" class="add-to-cart-btn">Add to Cart</button>
+    </li>
+
+    <li itemscope itemtype="http://schema.org/Product" class="product-item">
+        <div class="product-image">
+            <img itemprop="image" src="./media/products-new/Bedding0.jpg" alt="GoPro HERO12 "/>
+        </div>
+        <div class="product-info">
+            <strong itemprop="name">Eddie Bauer  </strong>
+            <span itemprop="price" class="price">$75</span>
+        </div>
+        <div itemprop="description" class="product-description">
+            Throw Blanket
+        </div>
+        <div itemprop="availability" class="availability">
+           In stock
+        </div>
+        <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+        <button type="button" class="add-to-cart-btn">Add to Cart</button>
+    </li>
+    </ul>
+    <div class="hero">Bath</div>
+    <ul>
+        <li itemscope itemtype="http://schema.org/Product" class="product-item">
+            <div class="product-image">
+                <img itemprop="image" src="./media/products-new/Bath1.jpg" alt="GoPro HERO12 "/>
+            </div>
+            <div class="product-info">
+                <strong itemprop="name">AquaDance </strong>
+                <span itemprop="price" class="price">$37</span>
+            </div>
+            <div itemprop="description" class="product-description">
+                Chrome AQUABAR
+            </div>
+            <div itemprop="availability" class="availability">
+               In stock
+            </div>
+            <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+            <button type="button" class="add-to-cart-btn">Add to Cart</button>
+        </li>
+
+        <li itemscope itemtype="http://schema.org/Product" class="product-item">
+            <div class="product-image">
+                <img itemprop="image" src="./media/products-new/Bath2.jpg" alt="GoPro HERO12 "/>
+            </div>
+            <div class="product-info">
+                <strong itemprop="name"> EUDELE </strong>
+                <span itemprop="price" class="price">$25</span>
+            </div>
+            <div itemprop="description" class="product-description">
+                Shower Caddy 5
+            </div>
+            <div itemprop="availability" class="availability">
+               In stock
+            </div>
+            <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+            <button type="button" class="add-to-cart-btn">Add to Cart</button>
+        </li>
+
+        <li itemscope itemtype="http://schema.org/Product" class="product-item">
+            <div class="product-image">
+                <img itemprop="image" src="./media/products-new/Bath3.jpg" alt="GoPro HERO12 "/>
+            </div>
+            <div class="product-info">
+                <strong itemprop="name">Grandaily Chenille  </strong>
+                <span itemprop="price" class="price">$49</span>
+            </div>
+            <div itemprop="description" class="product-description">
+                Striped Bathroom
+            </div>
+            <div itemprop="availability" class="availability">
+               In stock
+            </div>
+            <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+            <button type="button" class="add-to-cart-btn">Add to Cart</button>
+        </li>
+
+        <li itemscope itemtype="http://schema.org/Product" class="product-item">
+            <div class="product-image">
+                <img itemprop="image" src="./media/products-new/Bath4.jpg" alt="GoPro HERO12 "/>
+            </div>
+            <div class="product-info">
+                <strong itemprop="name">AquaCare </strong>
+                <span itemprop="price" class="price">$59</span>
+            </div>
+            <div itemprop="description" class="product-description">
+                Hotel Spa towel
+            </div>
+            <div itemprop="availability" class="availability">
+               In stock
+            </div>
+            <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+            <button type="button" class="add-to-cart-btn">Add to Cart</button>
+        </li>
+
+
+        <li itemscope itemtype="http://schema.org/Product" class="product-item">
+            <div class="product-image">
+                <img itemprop="image" src="./media/products-new/Bath5.jpg" alt="GoPro HERO12 "/>
+            </div>
+            <div class="product-info">
+                <strong itemprop="name">AquaDance </strong>
+                <span itemprop="price" class="price">$21</span>
+            </div>
+            <div itemprop="description" class="product-description">
+                Chrome Giant
+            </div>
+            <div itemprop="availability" class="availability">
+               In stock
+            </div>
+            <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+            <button type="button" class="add-to-cart-btn">Add to Cart</button>
+        </li>
+
+        <li itemscope itemtype="http://schema.org/Product" class="product-item">
+            <div class="product-image">
+                <img itemprop="image" src="./media/products-new/Bath6.jpg" alt="GoPro HERO12 "/>
+            </div>
+            <div class="product-info">
+                <strong itemprop="name">ALYVIA </strong>
+                <span itemprop="price" class="price">$8</span>
+            </div>
+            <div itemprop="description" class="product-description">
+                Waterproof Fabric
+            </div>
+            <div itemprop="availability" class="availability">
+               In stock
+            </div>
+            <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+            <button type="button" class="add-to-cart-btn">Add to Cart</button>
+        </li>
+
+        <li itemscope itemtype="http://schema.org/Product" class="product-item">
+            <div class="product-image">
+                <img itemprop="image" src="./media/products-new/Bath7.jpg" alt="GoPro HERO12 "/>
+            </div>
+            <div class="product-info">
+                <strong itemprop="name">Moforoco</strong>
+                <span itemprop="price" class="price">$10</span>
+            </div>
+            <div itemprop="description" class="product-description">
+                Shower Caddy
+            </div>
+            <div itemprop="availability" class="availability">
+               In stock
+            </div>
+            <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+            <button type="button" class="add-to-cart-btn">Add to Cart</button>
+        </li>
+
+        <li itemscope itemtype="http://schema.org/Product" class="product-item">
+            <div class="product-image">
+                <img itemprop="image" src="./media/products-new/Bath8.jpg" alt="GoPro HERO12 "/>
+            </div>
+            <div class="product-info">
+                <strong itemprop="name">4 PACK Qtip </strong>
+                <span itemprop="price" class="price">$10</span>
+            </div>
+            <div itemprop="description" class="product-description">
+                Holder Dispenser
+            </div>
+            <div itemprop="availability" class="availability">
+               In stock
+            </div>
+            <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+            <button type="button" class="add-to-cart-btn">Add to Cart</button>
+        </li>
+
+
+        <li itemscope itemtype="http://schema.org/Product" class="product-item">
+            <div class="product-image">
+                <img itemprop="image" src="./media/products-new/Bath9.jpg" alt="GoPro HERO12 "/>
+            </div>
+            <div class="product-info">
+                <strong itemprop="name">Tens Towels</strong>
+                <span itemprop="price" class="price">$33</span>
+            </div>
+            <div itemprop="description" class="product-description">
+                Large Bath Towels
+            </div>
+            <div itemprop="availability" class="availability">
+               In stock
+            </div>
+            <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+            <button type="button" class="add-to-cart-btn">Add to Cart</button>
+        </li>
+
+        <li itemscope itemtype="http://schema.org/Product" class="product-item">
+            <div class="product-image">
+                <img itemprop="image" src="./media/products-new/Bath0.jpg" alt="GoPro HERO12 "/>
+            </div>
+            <div class="product-info">
+                <strong itemprop="name">INEVIFIT</strong>
+                <span itemprop="price" class="price">$35</span>
+            </div>
+            <div itemprop="description" class="product-description">
+                Bathroom Scale
+            </div>
+            <div itemprop="availability" class="availability">
+               In stock
+            </div>
+            <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+            <button type="button" class="add-to-cart-btn">Add to Cart</button>
+        </li>
+    </ul>
+    <div class="hero">Furniture</div>
+    <ul>
+        <li itemscope itemtype="http://schema.org/Product" class="product-item">
+            <div class="product-image">
+                <img itemprop="image" src="./media/products-new/F0.jpg" alt="GoPro HERO12 "/>
+            </div>
+            <div class="product-info">
+                <strong itemprop="name">TENLLEY </strong>
+                <span itemprop="price" class="price">$139</span>
+            </div>
+            <div itemprop="description" class="product-description">
+                Bar Stools Set
+            </div>
+            <div itemprop="availability" class="availability">
+               In stock
+            </div>
+            <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+            <button type="button" class="add-to-cart-btn">Add to Cart</button>
+        </li>
+
+        <li itemscope itemtype="http://schema.org/Product" class="product-item">
+            <div class="product-image">
+                <img itemprop="image" src="./media/products-new/F1.jpg" alt="GoPro HERO12 "/>
+            </div>
+            <div class="product-info">
+                <strong itemprop="name">AEPOALUA </strong>
+                <span itemprop="price" class="price">$79</span>
+            </div>
+            <div itemprop="description" class="product-description">
+                Nightstand with Charging
+            </div>
+            <div itemprop="availability" class="availability">
+               In stock
+            </div>
+            <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+            <button type="button" class="add-to-cart-btn">Add to Cart</button>
+        </li>
+
+        <li itemscope itemtype="http://schema.org/Product" class="product-item">
+            <div class="product-image">
+                <img itemprop="image" src="./media/products-new/f3.jpg" alt="GoPro HERO12 "/>
+            </div>
+            <div class="product-info">
+                <strong itemprop="name">Aobafuir </strong>
+                <span itemprop="price" class="price">$149</span>
+            </div>
+            <div itemprop="description" class="product-description">
+                Drawer Dresser
+            </div>
+            <div itemprop="availability" class="availability">
+               In stock
+            </div>
+            <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+            <button type="button" class="add-to-cart-btn">Add to Cart</button>
+        </li>
+
+        <li itemscope itemtype="http://schema.org/Product" class="product-item">
+            <div class="product-image">
+                <img itemprop="image" src="./media/products-new/f4.jpg" alt="GoPro HERO12 "/>
+            </div>
+            <div class="product-info">
+                <strong itemprop="name">SEE SPRING</strong>
+                <span itemprop="price" class="price">$39</span>
+            </div>
+            <div itemprop="description" class="product-description">
+                12 Pack Shoe
+            </div>
+            <div itemprop="availability" class="availability">
+               In stock
+            </div>
+            <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+            <button type="button" class="add-to-cart-btn">Add to Cart</button>
+        </li>
+
+        <li itemscope itemtype="http://schema.org/Product" class="product-item">
+            <div class="product-image">
+                <img itemprop="image" src="./media/products-new/f5.jpg" alt="GoPro HERO12 "/>
+            </div>
+            <div class="product-info">
+                <strong itemprop="name">Kidol & Shellder</strong>
+                <span itemprop="price" class="price">$249</span>
+            </div>
+            <div itemprop="description" class="product-description">
+                Bar Stools
+            </div>
+            <div itemprop="availability" class="availability">
+               In stock
+            </div>
+            <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+            <button type="button" class="add-to-cart-btn">Add to Cart</button>
+        </li>
+
+        <li itemscope itemtype="http://schema.org/Product" class="product-item">
+            <div class="product-image">
+                <img itemprop="image" src="./media/products-new/f6.jpg" alt="GoPro HERO12 "/>
+            </div>
+            <div class="product-info">
+                <strong itemprop="name">KNIGHTCRAFT  </strong>
+                <span itemprop="price" class="price">$44</span>
+            </div>
+            <div itemprop="description" class="product-description">
+                Anti-Drop Bedside
+            </div>
+            <div itemprop="availability" class="availability">
+               In stock
+            </div>
+            <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+            <button type="button" class="add-to-cart-btn">Add to Cart</button>
+        </li>
+
+        <li itemscope itemtype="http://schema.org/Product" class="product-item">
+            <div class="product-image">
+                <img itemprop="image" src="./media/products-new/f7.jpg" alt="GoPro HERO12 "/>
+            </div>
+            <div class="product-info">
+                <strong itemprop="name"> GIA </strong>
+                <span itemprop="price" class="price">$123</span>
+            </div>
+            <div itemprop="description" class="product-description">
+               Home Furniture
+            </div>
+            <div itemprop="availability" class="availability">
+               In stock
+            </div>
+            <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+            <button type="button" class="add-to-cart-btn">Add to Cart</button>
+        </li>
+
+        <li itemscope itemtype="http://schema.org/Product" class="product-item">
+            <div class="product-image">
+                <img itemprop="image" src="./media/products-new/f8.jpg" alt="GoPro HERO12 "/>
+            </div>
+            <div class="product-info">
+                <strong itemprop="name"> BAYKA </strong>
+                <span itemprop="price" class="price">$15</span>
+            </div>
+            <div itemprop="description" class="product-description">
+                Wall Shelves
+            </div>
+            <div itemprop="availability" class="availability">
+               In stock
+            </div>
+            <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+            <button type="button" class="add-to-cart-btn">Add to Cart</button>
+        </li>
+
+        <li itemscope itemtype="http://schema.org/Product" class="product-item">
+            <div class="product-image">
+                <img itemprop="image" src="./media/products-new/f9.jpg" alt="GoPro HERO12 "/>
+            </div>
+            <div class="product-info">
+                <strong itemprop="name"> HIEEY</strong>
+                <span itemprop="price" class="price">$180</span>
+            </div>
+            <div itemprop="description" class="product-description">
+                Lighted Makeup
+            </div>
+            <div itemprop="availability" class="availability">
+               In stock
+            </div>
+            <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+            <button type="button" class="add-to-cart-btn">Add to Cart</button>
+        </li>
+
+        <li itemscope itemtype="http://schema.org/Product" class="product-item">
+            <div class="product-image">
+                <img itemprop="image" src="./media/products-new/f00.jpg" alt="GoPro HERO12 "/>
+            </div>
+            <div class="product-info">
+                <strong itemprop="name">SPACEKEEPER  </strong>
+                <span itemprop="price" class="price">$21</span>
+            </div>
+            <div itemprop="description" class="product-description">
+                Slim Rolling 
+            </div>
+            <div itemprop="availability" class="availability">
+               In stock
+            </div>
+            <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+            <button type="button" class="add-to-cart-btn">Add to Cart</button>
+        </li>
+    </ul>
+
+
+    </section>
+    <section class="products-group products-banner">
+        <div class="wrapper">
+            <div class="hero">Subscribe to event notifications!</div>
+            <div class="put-email">
+                <form>
+                    <label for="email-input" class="visually-hidden">Email:</label>
+                    <input type="email" id="email-input" name="email" placeholder="Your email" required />
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="wrapper">
+            <div class="column">
+                <img class="footer-logo" src="./media/products-new/logo.jpeg-removebg-preview (2).png" alt="" />
+            </div>
+            <section class="column">
+                <h1>Subscription</h1>
+                <ul>
+                    <li><a>Sign up</a></li>
+                    <li><a href="Login.html">Log in</a></li>
+                    <li><a>Help</a></li>
+                </ul>
+            </section>
+            <section class="column">
+                <h1>Policy</h1>
+                <ul>
+                    <li><a>Sales Agreement</a></li>
+                    <li><a>Privacy</a></li>
+                    <li><a>Data policy</a></li>
+                </ul>
+            </section>
+            <section class="column">
+                <h1>Account</h1>
+                <ul>
+                    <li><a>My Subscription</a></li>
+                    <li><a href="Cart.html">Cart</a></li>
+                </ul>
+            </section>
+            <div class="social-links">
+                <a href="https://facebook.com/" rel="noopener noreferrer" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com//" rel="noopener noreferrer" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://twitter.com/" rel="noopener noreferrer" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contactUS.html">Contact</a></li>
+                </ul>
+            </div>
+            <p class="student-note">The website is a student project and is not for commercial use.</p>
+        </div>
+    </footer>
+</body>
+</html>

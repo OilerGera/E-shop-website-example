@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+    <title>E-shop</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Merriweather&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="header">
+    <div class="wrapper">
+        <div class="logo">
+            <a href="Index.html" class="home-link">
+                <img src="./media/products-new/logo.jpeg-removebg-preview (2).png" alt="Beer Shop">
+            </a>
+        </div>
+        <div class="search">
+            <form>
+                <input type="text" placeholder="Search here" required />
+                <button type="submit">Search</button>
+            </form>
+           
+        </div>
+        <div class="user-actions">
+            <a href="./Login.html">Login</a>
+            <a href="./Cart.html">Cart</a>
+            <div class="language-selector">
+              <select name="languages" id="language-dropdown">
+                  <option value="en">EN</option>
+                  <option value="es">ES</option>
+                  <option value="fr">FR</option>
+              </select>
+            </div>
+        </div>
+    </div>
+  </header>
+  <nav class="navigation">
+      <div class="wrapper">
+          <ul>
+              <li><a href="./Index.html">Home</a></li>
+              <li class="dropdown-parent">
+                  <a href="./Shop.html" class="category-link">Categories</a>
+                  <button class="mobile-categories-btn">☰</button>
+                  <ul class="dropdown">
+                      <li><a href="./Electronics.html">Electronics</a></li>
+                      <li><a href="./Fashion.html">Women's Fashion</a></li>
+                      <li><a href="./MenFashion.html">Men's Fashion</a></li>
+                      <li><a href="./Home&Living.html">Home & Living</a></li>
+                  </ul>
+              </li>
+              <li><a href="./Delivery.html">Delivery</a></li>
+              <li><a href="./ContactUs.html">Contact Us</a></li>
+          </ul>
+      </div>
+  </nav>
+  
+
+<section class="products-group">
+  <div class="wrapper">
+   
+   
+      <aside class="contact-info">
+        <div class="map-and-address">
+          <div class="map-container">
+            <!-- Google Maps iframe here -->
+            <iframe src="https://www.google.com/maps/embed?pb=..." width="450" height="300" class="contact-map" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+        <div class="contact-and-social">
+          <div class="contact-section">
+            <h2 class="contact-heading">Contacts</h2>
+            <p class="contact-detail">📞 0(420) 690 04 55</p>
+            <p class="contact-detail">✉️ example@gmail.com</p>
+          </div>
+          <div class="contact-section">
+            <h2 class="contact-heading">Social Media</h2>
+            <p class="contact-detail">Facebook</p>
+            <p class="contact-detail">Instagram</p>
+            <p class="contact-detail">Twitter</p>
+            <p class="contact-detail">Snapchat</p>
+          </div>
+          <div class="contact-section">
+            <h2 class="contact-heading">Timetable</h2>
+            <p class="contact-detail">Monday-Saturday: 3pm-2am</p>
+          </div>
+          <div class="address-container">
+            <h2 class="contact-heading">Location</h2>
+            <p class="contact-detail">Michalská 15, 110 00 Staré Mesto, Prague 1</p>
+          </div>
+        </div>
+      </aside>
+      
+      
+    </div>
+  </div>
+</section>
+<section class="products-group products-banner">
+  <div class="wrapper">
+    <div class="hero">Subscribe to event notifications!</div>
+    <div class="put-email">
+      <form>
+        <label>
+          <input type="text" placeholder="Your Email" />
+        </label>
+        <button>Send</button>
+      </form>
+    </div>
+  </div>
+</section>
+<footer class="footer">
+  <div class="wrapper">
+      <div class="column">
+          <img class="footer-logo" src="./media/products-new/logo.jpeg-removebg-preview (2).png" alt="" />
+      </div>
+      <section class="column">
+          <h1>Subscription</h1>
+          <ul>
+              <li><a>Sign up</a></li>
+              <li><a href="Login.html">Log in</a></li>
+              <li><a>Help</a></li>
+          </ul>
+      </section>
+      <section class="column">
+          <h1>Policy</h1>
+          <ul>
+              <li><a>Sales Agreement</a></li>
+              <li><a>Privacy</a></li>
+              <li><a>Data policy</a></li>
+          </ul>
+      </section>
+      <section class="column">
+          <h1>Account</h1>
+          <ul>
+              <li><a>My Subscription</a></li>
+              <li><a href="Cart.html">Cart</a></li>
+          </ul>
+      </section>
+      <div class="social-links">
+          <a href="https://facebook.com/" rel="noopener noreferrer" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.instagram.com//" rel="noopener noreferrer" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://twitter.com/" rel="noopener noreferrer" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+      </div>
+      <div class="nav-links">
+          <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="contactUS.html">Contact</a></li>
+          </ul>
+      </div>
+      <p class="student-note">The website is a student project and is not for commercial use.</p>
+  </div>
+</footer>
+</body>
+</html>

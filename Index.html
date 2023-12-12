@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <title>E-shop</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Merriweather&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<header class="header">
+  <div class="wrapper">
+      <div class="logo">
+          <a href="Index.html" class="home-link">
+              <img src="./media/products-new/logo.jpeg-removebg-preview (2).png" alt="Beer Shop">
+          </a>
+      </div>
+      <div class="search">
+          <form>
+              <input type="text" placeholder="Search here" required />
+              <button type="submit">Search</button>
+          </form>
+         
+      </div>
+      <div class="user-actions">
+          <a href="./Login.html">Login</a>
+          <a href="./Cart.html">Cart</a>
+          <div class="language-selector">
+            <select name="languages" id="language-dropdown">
+                <option value="en">EN</option>
+                <option value="es">ES</option>
+                <option value="fr">FR</option>
+            </select>
+          </div>
+      </div>
+  </div>
+</header>
+<nav class="navigation">
+    <div class="wrapper">
+        <ul>
+            <li><a href="./Index.html">Home</a></li>
+            <li class="dropdown-parent">
+                <a href="./Shop.html" class="category-link">Categories</a>
+                <button class="mobile-categories-btn">☰</button>
+                <ul class="dropdown">
+                    <li><a href="./Electronics.html">Electronics</a></li>
+                    <li><a href="./Fashion.html">Women's Fashion</a></li>
+                    <li><a href="./MenFashion.html">Men's Fashion</a></li>
+                    <li><a href="./Home&Living.html">Home & Living</a></li>
+                </ul>
+            </li>
+            <li><a href="./Delivery.html">Delivery</a></li>
+            <li><a href="./ContactUs.html">Contact Us</a></li>
+        </ul>
+    </div>
+</nav>
+
+<section class="topbar">
+  <div class="wrapper">
+    <div class="contact-info">
+      <span>Call us: +123 456 7890</span>
+      <p>Free shipping on orders over $50! Limited time offer.</p>
+      <span>Email: support@example.com</span>  
+  </div>
+  </div>
+</section>
+
+<section class="slider">
+    <img src="./media/products-new/slider1.jpg" alt="Slider one" />
+</section>
+
+<section class="products-group">
+  <div class="wrapper">
+      <div class="hero">Best Seller</div>
+      <ul>
+        <li itemscope itemtype="http://schema.org/Product" class="product-item">
+          <span class="badge">New</span>
+          <div class="product-image">
+              <img itemprop="image" src="./media/products-new/topselling.jpg" alt="Energizer AAA Batteries"/>
+          </div>
+          <div class="product-info">
+              <h2 itemprop="name">Energizer AAA-32</h2>
+              <span itemprop="price" class="price">$12</span>
+          </div>
+          <div itemprop="description" class="product-description">
+              Reliable and long-lasting
+          </div>
+          <div itemprop="availability" class="availability">
+             In stock
+          </div>
+          <div class="rating">★★★★☆</div>
+          <button type="button" class="add-to-cart-btn">Add to Cart</button>
+      </li>
+
+      <li itemscope itemtype="https://schema.org/Product" class="product-item">
+        <div class="product-image">
+            <img itemprop="image" src="./media/products-new/headset corsair.jpg" alt="Corsair Gaming Headset" />
+        </div>
+        <div class="product-info">
+            <h2 itemprop="name">Corsair Gaming Headset</h2>
+            <span itemprop="price" class="price">$100</span>
+        </div>
+        <div itemprop="description" class="product-description">
+            Experience high-quality 
+        </div>
+        <div itemprop="availability" class="availability">
+            In stock
+        </div>
+        <div class="rating" aria-label="Rated 4 out of 5 stars">★★★★☆</div>
+        <button type="button" class="add-to-cart-btn">Add to Cart</button>
+    </li>
+
+        <li itemscope itemtype="https://schema.org/Product" class="product-item">
+      <span class="badge">New</span>
+      <div class="product-image">
+          <img itemprop="image" src="./media/products-new/headset3.jpg" alt="EK5A Gaming Headset" />
+      </div>
+      <div class="product-info">
+          <h2 itemprop="name">EK5A Gaming Headset</h2>
+          <span itemprop="price" class="price">$125</span>
+      </div>
+      <div itemprop="description" class="product-description">
+          Elevate your gaming 
+      </div>
+      <div itemprop="availability" class="availability">
+          In stock
+      </div>
+      <div class="rating" aria-label="Rated 4 out of 5 stars">★★★★☆</div>
+      <button type="button" class="add-to-cart-btn">Add to Cart</button>
+        </li>
+          <li itemscope itemtype="https://schema.org/Product" class="product-item">
+
+              <div class="product-image">
+              <img itemprop="image" src="./media/products-new/gamingchair4.jpg" alt="Lobkowicz" />
+              </div>
+              <div class="product-info">
+                  <h2 itemprop="name">Xoan Gaming Chair</h2>
+                  <span itemprop="price" class="price">$50</span>
+              </div>
+              <div itemprop="description" class="product-description">
+                  Very comfortable
+              </div>
+              <div itemprop="availability" class="availability">
+                  In stock
+              </div>
+              <div class="rating" aria-label="Rated 5 out of 5 stars">★★★★★</div>
+              <button type="button" class="add-to-cart-btn">Add to Cart</button>
+          </li>
+
+          <li itemscope itemtype="https://schema.org/Product" class="product-item">
+              <span class="badge">New</span>
+              <div class="product-image">
+              <img itemprop="image" src="./media/products-new/mouse.jpg" alt="Gambrinus" />
+              </div>
+              <div class="product-info">
+                  <h2 itemprop="name">Bloody Mouse</h2>
+                  <span itemprop="price" class="price">$32</span>
+              </div>
+              <div itemprop="description" class="product-description">
+                  Light right-handed mouse
+              </div>
+              <div itemprop="availability" class="availability">
+                  Out of Stock
+              </div>
+              <div class="rating" aria-label="Rated 3 out of 5 stars">★★★☆☆</div>
+              <button type="button" class="add-to-cart-btn">Add to Cart</button>
+          </li>
+
+          <li itemscope itemtype="https://schema.org/Product" class="product-item">
+
+              <div class="product-image">
+              <img itemprop="image" src="./media/products-new/smallgift7.jpg" alt="Svijany" />
+              </div>
+              <div class="product-info">
+                  <h2 itemprop="name">Supersun Candles</h2>
+                  <span itemprop="price" class="price">$30</span>
+              </div>
+              <div itemprop="description" class="product-description">
+                  offers a robust smell 
+              </div>
+              <div itemprop="availability" class="availability">
+                  In stock
+              </div>
+              <div class="rating" aria-label="Rated 3 out of 5 stars">★★★☆☆</div>
+              <button type="button" class="add-to-cart-btn">Add to Cart</button>
+          </li>
+
+          <li itemscope itemtype="https://schema.org/Product" class="product-item">
+              <span class="badge">New</span>
+              <div class="product-image">
+              <img itemprop="image" src="./media/products-new/smallgift.jpg" alt="Bohemia Regent" />
+               </div>
+              <div class="product-info">
+                  <h2 itemprop="name">Potato gift</h2>
+                  <span itemprop="price" class="price">$3</span>
+              </div>
+              <div itemprop="description" class="product-description">
+                  Small gift 
+              </div>
+              <div itemprop="availability" class="availability">
+                  In stock
+              </div>
+              <div class="rating" aria-label="Rated 2 out of 5 stars">★★★★☆</div>
+              <button type="button" class="add-to-cart-btn">Add to Cart</button>
+          </li>
+
+          <li itemscope itemtype="https://schema.org/Product" class="product-item">
+
+              <div class="product-image">
+              <img itemprop="image" src="./media/products-new/smallgift4.jpg" alt="Radegast" />
+              </div>
+              <h2 itemprop="name">Beret</h2>
+              <div class="product-info">
+
+                  <span itemprop="price" class="price">$15</span>
+              </div>
+              <div itemprop="description" class="product-description">
+                  Comfortable beret
+              </div>
+              <div itemprop="availability" class="availability">
+                  In stock
+              </div>
+              <div class="rating" aria-label="Rated 1 out of 5 stars">★★★★☆</div>
+              <button type="button" class="add-to-cart-btn">Add to Cart</button>
+          </li>
+          <li itemscope itemtype="https://schema.org/Product" class="product-item">
+              <span class="badge">New</span>
+              <div class="product-image">
+              <img itemprop="image" src="./media/products-new/smallgift2.jpg" alt="Corona" />
+              </div>
+              <div class="product-info">
+                  <h2 itemprop="name">QuntionSt</h2>
+                  <span itemprop="price" class="price">$75</span>
+              </div>
+              <div itemprop="description" class="product-description">
+                  12 in 1 Multi tool
+              </div>
+              <div itemprop="availability" class="availability">
+                  In stock
+              </div>
+              <div class="rating" aria-label="Rated 1 out of 5 stars">★★★★★</div>
+              <button type="button" class="add-to-cart-btn">Add to Cart</button>
+          </li>
+          <li itemscope itemtype="https://schema.org/Product" class="product-item">
+              <span class="badge">New</span>
+              <div class="product-image">
+              <img itemprop="image" src="./media/products-new/smallgift3.jpg" alt="Budweiser" />
+              </div>
+              <h2 itemprop="name">Nail Clipper Kit</h2>
+              <div class="product-info">
+
+                  <span itemprop="price" class="price">$25</span>
+              </div>
+              <div itemprop="description" class="product-description">
+                  Multi tool kit for personal care.
+              </div>
+              <div itemprop="availability" class="availability">
+                  In stock
+              </div>
+              <div class="rating" aria-label="Rated 5 out of 5 stars">★★★★★</div>
+              <button type="button" class="add-to-cart-btn">Add to Cart</button>
+          </li>
+      </ul>
+  </div>
+
+  <div class="wrapper">
+    <div class="hero">Limited Time Offers</div>
+    <div>
+      <li itemscope itemtype="http://schema.org/Product" class="product-item">
+        <span class="badge">On Sale</span>
+        <div class="product-image">
+            <img itemprop="image" src="./media/products-new/smallgift5.jpg" alt="Energizer AAA Batteries"/>
+        </div>
+        <h2 itemprop="name">Nail Clipper Kit</h2>
+        <div class="price-info">
+            <span class="original-price">$15</span>
+            <span class="discount-indicator">➔</span>
+            <span itemprop="price" class="sale-price">$12</span>
+          </div>
+        <div itemprop="description" class="product-description">
+            Moon like bubble
+        </div>
+        <div itemprop="availability" class="availability">
+           In stock
+        </div>
+        <div class="rating">★★★★☆</div>
+        <button type="button" class="add-to-cart-btn">Add to Cart</button>
+    </li>
+    <li itemscope itemtype="http://schema.org/Product" class="product-item">
+        <span class="badge">On Sale</span>
+        <div class="product-image">
+            <img itemprop="image" src="./media/products-new/smallgift6.jpg" alt="Energizer AAA Batteries"/>
+        </div>
+        <h2 itemprop="name">Nail Clipper Kit</h2>
+        <div class="price-info">
+            <span class="original-price">$75</span>
+            <span class="discount-indicator">➔</span>
+            <span itemprop="price" class="sale-price">$55</span>
+          </div>
+        <div itemprop="description" class="product-description">
+            Nail clipper kit, with scissors
+        </div>
+        <div itemprop="availability" class="availability">
+           In stock
+        </div>
+        <div class="rating">★★★☆☆</div>
+        <button type="button" class="add-to-cart-btn">Add to Cart</button>
+    </li>
+
+    <li itemscope itemtype="http://schema.org/Product" class="product-item">
+        <span class="badge">On Sale</span>
+        <div class="product-image">
+            <img itemprop="image" src="./media/products-new/Macbook.jpg" alt="Energizer AAA Batteries"/>
+        </div>
+        <h2 itemprop="name">2020 Apple Ipad</h2>
+        <div class="price-info">
+            <span class="original-price">$1000</span>
+            <span class="discount-indicator">➔</span>
+            <span itemprop="price" class="sale-price">$888</span>
+          </div>
+        <div itemprop="description" class="product-description">
+            Apple M1 Chip, ” Retina Display
+        </div>
+        <div itemprop="availability" class="availability">
+           In stock
+        </div>
+        <div class="rating">★★★☆☆</div>
+        <button type="button" class="add-to-cart-btn">Add to Cart</button>
+    </li>
+
+    <li itemscope itemtype="http://schema.org/Product" class="product-item">
+        <span class="badge">On Sale</span>
+        <div class="product-image">
+            <img itemprop="image" src="./media/products-new/blink home.jpg" alt="Energizer AAA Batteries"/>
+        </div>
+        <h2 itemprop="name">Blink Whole Home Bundle</h2>
+        <div class="price-info">
+            <span class="original-price">$214</span>
+            <span class="discount-indicator">➔</span>
+            <span itemprop="price" class="sale-price">$101</span>
+          </div>
+        <div itemprop="description" class="product-description">
+        Video Doorbell system (black)
+        </div>
+        <div itemprop="availability" class="availability">
+           In stock
+        </div>
+        <div class="rating">★★★☆☆</div>
+        <button type="button" class="add-to-cart-btn">Add to Cart</button>
+    </li>
+    <li itemscope itemtype="http://schema.org/Product" class="product-item">
+        <span class="badge">On Sale</span>
+        <div class="product-image">
+            <img itemprop="image" src="./media/products-new/BabyBasket.jpg" alt="Energizer AAA Batteries"/>
+        </div>
+        <h2 itemprop="name">Graco Simple Sway</h2>
+        <div class="price-info">
+            <span class="original-price">$119</span>
+            <span class="discount-indicator">➔</span>
+            <span itemprop="price" class="sale-price">$89</span>
+          </div>
+        <div itemprop="description" class="product-description">
+        Swing clor, with Ivy style and some decorations.
+        </div>
+        <div itemprop="availability" class="availability">
+           In stock
+        </div>
+        <div class="rating">★★★☆☆</div>
+        <button type="button" class="add-to-cart-btn">Add to Cart</button>
+    </li>
+
+    <li itemscope itemtype="http://schema.org/Product" class="product-item">
+        <span class="badge">On Sale</span>
+        <div class="product-image">
+            <img itemprop="image" src="./media/products-new/airpods.jpg" alt="Energizer AAA Batteries"/>
+        </div>
+        <h2 itemprop="name">Sony LinkBuds</h2>
+        <div class="price-info">
+            <span class="original-price">$179</span>
+            <span class="discount-indicator">➔</span>
+            <span itemprop="price" class="sale-price">$128</span>
+          </div>
+        <div itemprop="description" class="product-description">
+        Wireless earbud headphones
+        </div>
+        <div itemprop="availability" class="availability">
+           In stock
+        </div>
+        <div class="rating">★★★★☆</div>
+        <button type="button" class="add-to-cart-btn">Add to Cart</button>
+    </li>
+
+    <li itemscope itemtype="http://schema.org/Product" class="product-item">
+        <span class="badge">On Sale</span>
+        <div class="product-image">
+            <img itemprop="image" src="./media/products-new/samsungfinity.jpg" alt="Energizer AAA Batteries"/>
+        </div>
+        <h2 itemprop="name">Samsung Viewfinity</h2>
+        <div class="price-info">
+            <span class="original-price">$384</span>
+            <span class="discount-indicator">➔</span>
+            <span itemprop="price" class="sale-price">$199</span>
+          </div>
+        <div itemprop="description" class="product-description">
+        32 Inch Viewfinity QHD 2k 
+        </div>
+        <div itemprop="availability" class="availability">
+           In stock
+        </div>
+        <div class="rating">★★★★★</div>
+        <button type="button" class="add-to-cart-btn">Add to Cart</button>
+    </li>
+
+    <li itemscope itemtype="http://schema.org/Product" class="product-item">
+        <span class="badge">On Sale</span>
+        <div class="product-image">
+            <img itemprop="image" src="./media/products-new/intel core.jpg" alt="Energizer AAA Batteries"/>
+        </div>
+        <h2 itemprop="name">Intel core i5</h2>
+        <div class="price-info">
+            <span class="original-price">$214</span>
+            <span class="discount-indicator">➔</span>
+            <span itemprop="price" class="sale-price">$153</span>
+          </div>
+        <div itemprop="description" class="product-description">
+            Desktop Processor 
+        </div>
+        <div itemprop="availability" class="availability">
+           In stock
+        </div>
+        <div class="rating">★★★★☆</div>
+        <button type="button" class="add-to-cart-btn">Add to Cart</button>
+    </li>
+
+
+    <li itemscope itemtype="http://schema.org/Product" class="product-item">
+        <span class="badge">On Sale</span>
+        <div class="product-image">
+            <img itemprop="image" src="./media/products-new/doorbell.jpg" alt="Energizer AAA Batteries"/>
+        </div>
+        <h2 itemprop="name">Ring Video Doorbell</h2>
+        <div class="price-info">
+            <span class="original-price">$189</span>
+            <span class="discount-indicator">➔</span>
+            <span itemprop="price" class="sale-price">$64</span>
+          </div>
+        <div itemprop="description" class="product-description">
+            (Venetian Bronze) bundle with Echo Show 5 (3rd Gen
+        </div>
+        <div itemprop="availability" class="availability">
+           In stock
+        </div>
+        <div class="rating">★★★★☆</div>
+        <button type="button" class="add-to-cart-btn">Add to Cart</button>
+    </li>
+
+    <li itemscope itemtype="http://schema.org/Product" class="product-item">
+        <span class="badge">On Sale</span>
+        <div class="product-image">
+            <img itemprop="image" src="./media/products-new/samsunggalaxy.jpg" alt="Energizer AAA Batteries"/>
+        </div>
+        <h2 itemprop="name">SAMSUNG Galaxy S23</h2>
+        <div class="price-info">
+            <span class="original-price">$1199</span>
+            <span class="discount-indicator">➔</span>
+            <span itemprop="price" class="sale-price">$899</span>
+          </div>
+        <div itemprop="description" class="product-description">
+            Ultra Cell Phone, Unlocked Android Smartphone, 256GB, 200MP Camera, S Pen
+        </div>
+        <div itemprop="availability" class="availability">
+           In stock
+        </div>
+        <div class="rating">★★★★☆</div>
+        <button type="button" class="add-to-cart-btn">Add to Cart</button>
+    </li>
+    </div>
+</div>
+
+<section class="products-group products-banner">
+  <div class="wrapper">
+      <div class="hero">Subscribe to event notifications!</div>
+      <div class="put-email">
+          <form>
+              <label for="email-input" class="visually-hidden">Email:</label>
+              <input type="email" id="email-input" name="email" placeholder="Your email" required />
+              <button type="submit">Send</button>
+          </form>
+      </div>
+  </div>
+</section>
+</section>
+<footer class="footer">
+    <div class="wrapper">
+        <div class="column">
+            <img class="footer-logo" src="./media/products-new/logo.jpeg-removebg-preview (2).png" alt="" />
+        </div>
+        <section class="column">
+            <h1>Subscription</h1>
+            <ul>
+                <li><a>Sign up</a></li>
+                <li><a href="Login.html">Log in</a></li>
+                <li><a>Help</a></li>
+            </ul>
+        </section>
+        <section class="column">
+            <h1>Policy</h1>
+            <ul>
+                <li><a>Sales Agreement</a></li>
+                <li><a>Privacy</a></li>
+                <li><a>Data policy</a></li>
+            </ul>
+        </section>
+        <section class="column">
+            <h1>Account</h1>
+            <ul>
+                <li><a>My Subscription</a></li>
+                <li><a href="Cart.html">Cart</a></li>
+            </ul>
+        </section>
+        <div class="social-links">
+            <a href="https://facebook.com/" rel="noopener noreferrer" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com//" rel="noopener noreferrer" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://twitter.com/" rel="noopener noreferrer" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+        <div class="nav-links">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contactUS.html">Contact</a></li>
+            </ul>
+        </div>
+        <p class="student-note">The website is a student project and is not for commercial use.</p>
+    </div>
+</footer>
+</body>
+</html>
+

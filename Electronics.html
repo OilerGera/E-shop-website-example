@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>E-shop</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css" type="text/css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato&family=Merriweather&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <div class="logo">
+                <a href="Index.html" class="home-link">
+                    <img src="./media/products-new/logo.jpeg-removebg-preview (2).png" alt="Beer Shop">
+                </a>
+            </div>
+            <div class="search">
+                <form>
+                    <input type="text" placeholder="Search here" required />
+                    <button type="submit">Search</button>
+                </form>
+               
+            </div>
+            <div class="user-actions">
+                <a href="./Login.html">Login</a>
+                <a href="./Cart.html">Cart</a>
+                <div class="language-selector">
+                  <select name="languages" id="language-dropdown">
+                      <option value="en">EN</option>
+                      <option value="es">ES</option>
+                      <option value="fr">FR</option>
+                  </select>
+                </div>
+            </div>
+        </div>
+      </header>
+      <nav class="navigation">
+          <div class="wrapper">
+              <ul>
+                  <li><a href="./Index.html">Home</a></li>
+                  <li class="dropdown-parent">
+                      <a href="./Shop.html" class="category-link">Categories</a>
+                      <button class="mobile-categories-btn">☰</button>
+                      <ul class="dropdown">
+                          <li><a href="./Electronics.html">Electronics</a></li>
+                          <li><a href="./Fashion.html">Women's Fashion</a></li>
+                          <li><a href="./MenFashion.html">Men's Fashion</a></li>
+                          <li><a href="./Home&Living.html">Home & Living</a></li>
+                      </ul>
+                  </li>
+                  <li><a href="./Delivery.html">Delivery</a></li>
+                  <li><a href="./ContactUs.html">Contact Us</a></li>
+              </ul>
+          </div>
+      </nav>
+      
+  <section class="products-group">
+  <div class="wrapper">
+    <div class="hero">Camera & Photo</div>
+    <ul>
+      <li itemscope itemtype="http://schema.org/Product" class="product-item">
+        <div class="product-image">
+            <img itemprop="image" src="./media/products-new/Kids Waterproof.jpg" alt="Energizer AAA Batteries"/>
+        </div>
+        <div class="product-info">
+            <strong itemprop="name">Kids Underwater Camera</strong>
+            <span itemprop="price" class="price">$12</span>
+        </div>
+        <div itemprop="description" class="product-description">
+            Toys for 3-12 Year 
+        </div>
+        <div itemprop="availability" class="availability">
+           In stock
+        </div>
+        <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+        <button type="button" class="add-to-cart-btn">Add to Cart</button>
+    </li>
+   
+        <li itemscope itemtype="http://schema.org/Product" class="product-item">
+          <div class="product-image">
+              <img itemprop="image" src="./media/products-new/Radclo Mini Drone.jpg" alt="Energizer AAA Batteries"/>
+          </div>
+          <div class="product-info">
+              <strong itemprop="name">Radclo Mini Drone</strong>
+              <span itemprop="price" class="price">$52</span>
+          </div>
+          <div itemprop="description" class="product-description">
+            1080P HD FPV 
+          </div>
+          <div itemprop="availability" class="availability">
+             In stock
+          </div>
+          <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+          <button type="button" class="add-to-cart-btn">Add to Cart</button>
+      </li>
+
+
+      <li itemscope itemtype="http://schema.org/Product" class="product-item">
+        <div class="product-image">
+            <img itemprop="image" src="./media/products-new/Sunglasses Camera.jpg" alt="Energizer AAA Batteries"/>
+        </div>
+        <div class="product-info">
+            <strong itemprop="name">Sunglasses Camera</strong>
+            <span itemprop="price" class="price">$62</span>
+        </div>
+        <div itemprop="description" class="product-description">
+            Bluetooth Sports Sunglasses 
+        </div>
+        <div itemprop="availability" class="availability">
+           In stock
+        </div>
+        <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+        <button type="button" class="add-to-cart-btn">Add to Cart</button>
+    </li>
+
+    <li itemscope itemtype="http://schema.org/Product" class="product-item">
+        <div class="product-image">
+            <img itemprop="image" src="./media/products-new/GoPro HERO12.jpg" alt="GoPro HERO12 "/>
+        </div>
+        <div class="product-info">
+            <strong itemprop="name">GoPro HERO12 </strong>
+            <span itemprop="price" class="price">$62</span>
+        </div>
+        <div itemprop="description" class="product-description">
+            Black Creator Edition
+        </div>
+        <div itemprop="availability" class="availability">
+           In stock
+        </div>
+        <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+        <button type="button" class="add-to-cart-btn">Add to Cart</button>
+    </li>
+
+
+    <li itemscope itemtype="http://schema.org/Product" class="product-item">
+        <div class="product-image">
+            <img itemprop="image" src="./media/products-new/WYze-Cam-pan-v3.jpg" alt="GoPro HERO12 "/>
+        </div>
+        <div class="product-info">
+            <strong itemprop="name">WYZE Cam Pan</strong>
+            <span itemprop="price" class="price">$39</span>
+        </div>
+        <div itemprop="description" class="product-description">
+            Indoor/Outdoor 
+        </div>
+        <div itemprop="availability" class="availability">
+           In stock
+        </div>
+        <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+        <button type="button" class="add-to-cart-btn">Add to Cart</button>
+    </li>
+
+    <li itemscope itemtype="http://schema.org/Product" class="product-item">
+        <div class="product-image">
+            <img itemprop="image" src="./media/products-new/Mini projector for iphone.jpg" alt="GoPro HERO12 "/>
+        </div>
+        <div class="product-info">
+            <strong itemprop="name">Mini projector for iphone</strong>
+            <span itemprop="price" class="price">$69</span>
+        </div>
+        <div itemprop="description" class="product-description">
+            ELEPHAS 2023 
+        </div>
+        <div itemprop="availability" class="availability">
+           In stock
+        </div>
+        <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+        <button type="button" class="add-to-cart-btn">Add to Cart</button>
+    </li>
+
+    <li itemscope itemtype="http://schema.org/Product" class="product-item">
+        <div class="product-image">
+            <img itemprop="image" src="./media/products-new/Kasa Indoor Pan.jpg" alt="GoPro HERO12 "/>
+        </div>
+        <div class="product-info">
+            <strong itemprop="name">Kasa Indoor Camera</strong>
+            <span itemprop="price" class="price">$69</span>
+        </div>
+        <div itemprop="description" class="product-description">
+            1080p HD Dog Camera
+        </div>
+        <div itemprop="availability" class="availability">
+           In stock
+        </div>
+        <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+        <button type="button" class="add-to-cart-btn">Add to Cart</button>
+    </li>
+
+
+    <li itemscope itemtype="http://schema.org/Product" class="product-item">
+        <div class="product-image">
+            <img itemprop="image" src="./media/products-new/ORDRO 4k Video Cam.jpg" alt="GoPro HERO12 "/>
+        </div>
+        <div class="product-info">
+            <strong itemprop="name">ORDRO 4k</strong>
+            <span itemprop="price" class="price">$295</span>
+        </div>
+        <div itemprop="description" class="product-description">
+            Camcorder AC5
+        </div>
+        <div itemprop="availability" class="availability">
+           In stock
+        </div>
+        <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+        <button type="button" class="add-to-cart-btn">Add to Cart</button>
+    </li>
+
+
+    <li itemscope itemtype="http://schema.org/Product" class="product-item">
+        <div class="product-image">
+            <img itemprop="image" src="./media/products-new/Gskyer Telescope.jpg" alt="GoPro HERO12 "/>
+        </div>
+        <div class="product-info">
+            <strong itemprop="name">Gskyer Telescope</strong>
+            <span itemprop="price" class="price">$78</span>
+        </div>
+        <div itemprop="description" class="product-description">
+            70mm Aperture 
+        </div>
+        <div itemprop="availability" class="availability">
+           In stock
+        </div>
+        <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+        <button type="button" class="add-to-cart-btn">Add to Cart</button>
+    </li>
+
+    <li itemscope itemtype="http://schema.org/Product" class="product-item">
+        <div class="product-image">
+            <img itemprop="image" src="./media/products-new/AuKing-Projector.jpg" alt="GoPro HERO12 "/>
+        </div>
+        <div class="product-info">
+            <strong itemprop="name">AuKing Projector</strong>
+            <span itemprop="price" class="price">$57</span>
+        </div>
+        <div itemprop="description" class="product-description">
+            2023 Upgraded Mini
+        </div>
+        <div itemprop="availability" class="availability">
+           In stock
+        </div>
+        <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+        <button type="button" class="add-to-cart-btn">Add to Cart</button>
+    </li>
+    </ul>
+    <div class="hero">Accessories & Supplies</div>
+    <ul>
+        <li itemscope itemtype="http://schema.org/Product" class="product-item">
+            <div class="product-image">
+                <img itemprop="image" src="./media/products-new/Deerlet ipx8.jpg" alt="GoPro HERO12 "/>
+            </div>
+            <div class="product-info">
+                <strong itemprop="name">Waterproof Airtag Holder</strong>
+                <span itemprop="price" class="price">$7</span>
+            </div>
+            <div itemprop="description" class="product-description">
+                Apple Airtag 
+            </div>
+            <div itemprop="availability" class="availability">
+               In stock
+            </div>
+            <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+            <button type="button" class="add-to-cart-btn">Add to Cart</button>
+        </li>
+
+        <li itemscope itemtype="http://schema.org/Product" class="product-item">
+            <div class="product-image">
+                <img itemprop="image" src="./media/products-new/AirTag-Dog-Collar-holder.jpg" alt="GoPro HERO12 "/>
+            </div>
+            <div class="product-info">
+                <strong itemprop="name">Dog Collar</strong>
+                <span itemprop="price" class="price">$8</span>
+            </div>
+            <div itemprop="description" class="product-description">
+                IP68 Waterproof Dog 
+            </div>
+            <div itemprop="availability" class="availability">
+               In stock
+            </div>
+            <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+            <button type="button" class="add-to-cart-btn">Add to Cart</button>
+        </li>
+
+        <li itemscope itemtype="http://schema.org/Product" class="product-item">
+            <div class="product-image">
+                <img itemprop="image" src="./media/products-new/JBL vibe beam.jpg" alt="GoPro HERO12 "/>
+            </div>
+            <div class="product-info">
+                <strong itemprop="name">JBL Vibe Beam</strong>
+                <span itemprop="price" class="price">$39</span>
+            </div>
+            <div itemprop="description" class="product-description">
+                True Wireless
+            </div>
+            <div itemprop="availability" class="availability">
+               In stock
+            </div>
+            <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+            <button type="button" class="add-to-cart-btn">Add to Cart</button>
+        </li>
+
+        <li itemscope itemtype="http://schema.org/Product" class="product-item">
+            <div class="product-image">
+                <img itemprop="image" src="./media/products-new/JBL Tune 510BT.jpg" alt="GoPro HERO12 "/>
+            </div>
+            <div class="product-info">
+                <strong itemprop="name">JBL Tune 510BT</strong>
+                <span itemprop="price" class="price">$25</span>
+            </div>
+            <div itemprop="description" class="product-description">
+                Wireless On-Ear Headphones 
+            </div>
+            <div itemprop="availability" class="availability">
+               In stock
+            </div>
+            <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+            <button type="button" class="add-to-cart-btn">Add to Cart</button>
+        </li>
+
+
+        <li itemscope itemtype="http://schema.org/Product" class="product-item">
+            <div class="product-image">
+                <img itemprop="image" src="./media/products-new/HP 63 Black Ink Cartridge.jpg" alt="GoPro HERO12 "/>
+            </div>
+            <div class="product-info">
+                <strong itemprop="name">HP 63 Black Ink Cartridge</strong>
+                <span itemprop="price" class="price">$23</span>
+            </div>
+            <div itemprop="description" class="product-description">
+                Works with HP DeskJet 
+            </div>
+            <div itemprop="availability" class="availability">
+               In stock
+            </div>
+            <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+            <button type="button" class="add-to-cart-btn">Add to Cart</button>
+        </li>
+
+        <li itemscope itemtype="http://schema.org/Product" class="product-item">
+            <div class="product-image">
+                <img itemprop="image" src="./media/products-new/SanDisk.jpg" alt="GoPro HERO12 "/>
+            </div>
+            <div class="product-info">
+                <strong itemprop="name">SanDisk 128GB Extreme PRO</strong>
+                <span itemprop="price" class="price">$20</span>
+            </div>
+            <div itemprop="description" class="product-description">
+                SDXC UHS-I Memory 
+            </div>
+            <div itemprop="availability" class="availability">
+               In stock
+            </div>
+            <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+            <button type="button" class="add-to-cart-btn">Add to Cart</button>
+        </li>
+
+        <li itemscope itemtype="http://schema.org/Product" class="product-item">
+            <div class="product-image">
+                <img itemprop="image" src="./media/products-new/SanDisk 512gb.jpg" alt="GoPro HERO12 "/>
+            </div>
+            <div class="product-info">
+                <strong itemprop="name">SanDisk 512GB Extreme microSDXC</strong>
+                <span itemprop="price" class="price">$32</span>
+            </div>
+            <div itemprop="description" class="product-description">
+                UHS-I Memory
+            </div>
+            <div itemprop="availability" class="availability">
+               In stock
+            </div>
+            <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+            <button type="button" class="add-to-cart-btn">Add to Cart</button>
+        </li>
+
+        <li itemscope itemtype="http://schema.org/Product" class="product-item">
+            <div class="product-image">
+                <img itemprop="image" src="./media/products-new/Surge Protector Power Strip.jpg" alt="GoPro HERO12 "/>
+            </div>
+            <div class="product-info">
+                <strong itemprop="name">Surge Protector Power Strip</strong>
+                <span itemprop="price" class="price">$26</span>
+            </div>
+            <div itemprop="description" class="product-description">
+                8 Widely Outlets
+            </div>
+            <div itemprop="availability" class="availability">
+               In stock
+            </div>
+            <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+            <button type="button" class="add-to-cart-btn">Add to Cart</button>
+        </li>
+
+
+        <li itemscope itemtype="http://schema.org/Product" class="product-item">
+            <div class="product-image">
+                <img itemprop="image" src="./media/products-new/Sony WF-1000XM5.jpg" alt="GoPro HERO12 "/>
+            </div>
+            <div class="product-info">
+                <strong itemprop="name">Sony WF-1000XM5</strong>
+                <span itemprop="price" class="price">$248</span>
+            </div>
+            <div itemprop="description" class="product-description">
+                The Best Truly Wireless
+            </div>
+            <div itemprop="availability" class="availability">
+               In stock
+            </div>
+            <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+            <button type="button" class="add-to-cart-btn">Add to Cart</button>
+        </li>
+
+        <li itemscope itemtype="http://schema.org/Product" class="product-item">
+            <div class="product-image">
+                <img itemprop="image" src="./media/products-new/google Pixel Buds.jpg" alt="GoPro HERO12 "/>
+            </div>
+            <div class="product-info">
+                <strong itemprop="name">google Pixel Buds Pro</strong>
+                <span itemprop="price" class="price">$200</span>
+            </div>
+            <div itemprop="description" class="product-description">
+                Noise Canceling Earbuds
+            </div>
+            <div itemprop="availability" class="availability">
+               In stock
+            </div>
+            <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+            <button type="button" class="add-to-cart-btn">Add to Cart</button>
+        </li>
+    </ul>
+    <div class="hero">Car & Vehicle Electronics</div>
+    <ul>
+        <li itemscope itemtype="http://schema.org/Product" class="product-item">
+            <div class="product-image">
+                <img itemprop="image" src="./media/products-new/4k-RB-BackupCamera.jpg" alt="GoPro HERO12 "/>
+            </div>
+            <div class="product-info">
+                <strong itemprop="name">4K RV Backup Camera System</strong>
+                <span itemprop="price" class="price">$300</span>
+            </div>
+            <div itemprop="description" class="product-description">
+                10.36" Quad Split
+            </div>
+            <div itemprop="availability" class="availability">
+               In stock
+            </div>
+            <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+            <button type="button" class="add-to-cart-btn">Add to Cart</button>
+        </li>
+
+        <li itemscope itemtype="http://schema.org/Product" class="product-item">
+            <div class="product-image">
+                <img itemprop="image" src="./media/products-new/ZEROXCLUB.jpg" alt="GoPro HERO12 "/>
+            </div>
+            <div class="product-info">
+                <strong itemprop="name">ZEROXCLUB HD</strong>
+                <span itemprop="price" class="price">$260</span>
+            </div>
+            <div itemprop="description" class="product-description">
+                Camera System Kit
+            </div>
+            <div itemprop="availability" class="availability">
+               In stock
+            </div>
+            <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+            <button type="button" class="add-to-cart-btn">Add to Cart</button>
+        </li>
+
+        <li itemscope itemtype="http://schema.org/Product" class="product-item">
+            <div class="product-image">
+                <img itemprop="image" src="./media/products-new/Onlysay Screen Swivel.jpg" alt="GoPro HERO12 "/>
+            </div>
+            <div class="product-info">
+                <strong itemprop="name">ZEROXCLUB HD</strong>
+                <span itemprop="price" class="price">$80</span>
+            </div>
+            <div itemprop="description" class="product-description">
+                Mount for Tesla
+            </div>
+            <div itemprop="availability" class="availability">
+               In stock
+            </div>
+            <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+            <button type="button" class="add-to-cart-btn">Add to Cart</button>
+        </li>
+
+        <li itemscope itemtype="http://schema.org/Product" class="product-item">
+            <div class="product-image">
+                <img itemprop="image" src="./media/products-new/REDTIGER.jpg" alt="GoPro HERO12 "/>
+            </div>
+            <div class="product-info">
+                <strong itemprop="name">REDTIGER Dash Cam</strong>
+                <span itemprop="price" class="price">$127</span>
+            </div>
+            <div itemprop="description" class="product-description">
+                Front Rear
+            </div>
+            <div itemprop="availability" class="availability">
+               In stock
+            </div>
+            <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+            <button type="button" class="add-to-cart-btn">Add to Cart</button>
+        </li>
+
+        <li itemscope itemtype="http://schema.org/Product" class="product-item">
+            <div class="product-image">
+                <img itemprop="image" src="./media/products-new/carplay.jpg" alt="GoPro HERO12 "/>
+            </div>
+            <div class="product-info">
+                <strong itemprop="name">CarPlay Wireless Adapter</strong>
+                <span itemprop="price" class="price">$100</span>
+            </div>
+            <div itemprop="description" class="product-description">
+                Factory Wired 
+            </div>
+            <div itemprop="availability" class="availability">
+               In stock
+            </div>
+            <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+            <button type="button" class="add-to-cart-btn">Add to Cart</button>
+        </li>
+
+        <li itemscope itemtype="http://schema.org/Product" class="product-item">
+            <div class="product-image">
+                <img itemprop="image" src="./media/products-new/Rover R2.jpg" alt="GoPro HERO12 "/>
+            </div>
+            <div class="product-info">
+                <strong itemprop="name">ROVE R2-4K Dash Cam</strong>
+                <span itemprop="price" class="price">$80</span>
+            </div>
+            <div itemprop="description" class="product-description">
+                Built-in WiFi
+            </div>
+            <div itemprop="availability" class="availability">
+               In stock
+            </div>
+            <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+            <button type="button" class="add-to-cart-btn">Add to Cart</button>
+        </li>
+
+        <li itemscope itemtype="http://schema.org/Product" class="product-item">
+            <div class="product-image">
+                <img itemprop="image" src="./media/products-new/LISEN USB.jpg" alt="GoPro HERO12 "/>
+            </div>
+            <div class="product-info">
+                <strong itemprop="name">LISEN USB C Car Charger</strong>
+                <span itemprop="price" class="price">$15</span>
+            </div>
+            <div itemprop="description" class="product-description">
+                Adapter [2 Pack]
+            </div>
+            <div itemprop="availability" class="availability">
+               In stock
+            </div>
+            <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+            <button type="button" class="add-to-cart-btn">Add to Cart</button>
+        </li>
+
+        <li itemscope itemtype="http://schema.org/Product" class="product-item">
+            <div class="product-image">
+                <img itemprop="image" src="./media/products-new/GUWEZ phone.jpg" alt="GoPro HERO12 "/>
+            </div>
+            <div class="product-info">
+                <strong itemprop="name">GUWEZ Phone Holder</strong>
+                <span itemprop="price" class="price">$17</span>
+            </div>
+            <div itemprop="description" class="product-description">
+                Car Mount for iPhone
+            </div>
+            <div itemprop="availability" class="availability">
+               In stock
+            </div>
+            <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+            <button type="button" class="add-to-cart-btn">Add to Cart</button>
+        </li>
+
+        <li itemscope itemtype="http://schema.org/Product" class="product-item">
+            <div class="product-image">
+                <img itemprop="image" src="./media/products-new//Comsoon.jpg" alt="GoPro HERO12 "/>
+            </div>
+            <div class="product-info">
+                <strong itemprop="name">COMSOON Bluetooth Receiver</strong>
+                <span itemprop="price" class="price">$20</span>
+            </div>
+            <div itemprop="description" class="product-description">
+                Noise Cancelling 
+            </div>
+            <div itemprop="availability" class="availability">
+               In stock
+            </div>
+            <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+            <button type="button" class="add-to-cart-btn">Add to Cart</button>
+        </li>
+
+        <li itemscope itemtype="http://schema.org/Product" class="product-item">
+            <div class="product-image">
+                <img itemprop="image" src="./media/products-new/duracell.jpg" alt="GoPro HERO12 "/>
+            </div>
+            <div class="product-info">
+                <strong itemprop="name">
+                    Duracell 21/23 12V Alkaline Battery</strong>
+                <span itemprop="price" class="price">$15</span>
+            </div>
+            <div itemprop="description" class="product-description">
+                4 Count Pack
+                </div>
+            <div itemprop="availability" class="availability">
+               In stock
+            </div>
+            <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+            <button type="button" class="add-to-cart-btn">Add to Cart</button>
+        </li>
+    </ul>
+
+
+    </section>
+    <section class="products-group products-banner">
+        <div class="wrapper">
+            <div class="hero">Subscribe to event notifications!</div>
+            <div class="put-email">
+                <form>
+                    <label for="email-input" class="visually-hidden">Email:</label>
+                    <input type="email" id="email-input" name="email" placeholder="Your email" required />
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="wrapper">
+            <div class="column">
+                <img class="footer-logo" src="./media/products-new/logo.jpeg-removebg-preview (2).png" alt="" />
+            </div>
+            <section class="column">
+                <h1>Subscription</h1>
+                <ul>
+                    <li><a>Sign up</a></li>
+                    <li><a href="Login.html">Log in</a></li>
+                    <li><a>Help</a></li>
+                </ul>
+            </section>
+            <section class="column">
+                <h1>Policy</h1>
+                <ul>
+                    <li><a>Sales Agreement</a></li>
+                    <li><a>Privacy</a></li>
+                    <li><a>Data policy</a></li>
+                </ul>
+            </section>
+            <section class="column">
+                <h1>Account</h1>
+                <ul>
+                    <li><a>My Subscription</a></li>
+                    <li><a href="Cart.html">Cart</a></li>
+                </ul>
+            </section>
+            <div class="social-links">
+                <a href="https://facebook.com/" rel="noopener noreferrer" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com//" rel="noopener noreferrer" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://twitter.com/" rel="noopener noreferrer" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contactUS.html">Contact</a></li>
+                </ul>
+            </div>
+            <p class="student-note">The website is a student project and is not for commercial use.</p>
+        </div>
+    </footer>
+</body>
+</html>

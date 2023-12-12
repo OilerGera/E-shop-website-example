@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Menu</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="./style.css" type="text/css"/>
+
+
+</head>
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <div class="logo">
+                <a href="Index.html" class="home-link">
+                    <img src="./media/products-new/logo.jpeg-removebg-preview (2).png" alt="Beer Shop">
+                </a>
+            </div>
+            <div class="search">
+                <form>
+                    <input type="text" placeholder="Search here" required />
+                    <button type="submit">Search</button>
+                </form>
+               
+            </div>
+            <div class="user-actions">
+                <a href="./Login.html">Login</a>
+                <a href="./Cart.html">Cart</a>
+                <div class="language-selector">
+                  <select name="languages" id="language-dropdown">
+                      <option value="en">EN</option>
+                      <option value="es">ES</option>
+                      <option value="fr">FR</option>
+                  </select>
+                </div>
+            </div>
+        </div>
+      </header>
+      <nav class="navigation">
+          <div class="wrapper">
+              <ul>
+                  <li><a href="./Index.html">Home</a></li>
+                  <li class="dropdown-parent">
+                      <a href="./Shop.html" class="category-link">Categories</a>
+                      <button class="mobile-categories-btn">☰</button>
+                      <ul class="dropdown">
+                          <li><a href="./Electronics.html">Electronics</a></li>
+                          <li><a href="./Fashion.html">Women's Fashion</a></li>
+                          <li><a href="./MenFashion.html">Men's Fashion</a></li>
+                          <li><a href="./Home&Living.html">Home & Living</a></li>
+                      </ul>
+                  </li>
+                  <li><a href="./Delivery.html">Delivery</a></li>
+                  <li><a href="./ContactUs.html">Contact Us</a></li>
+              </ul>
+          </div>
+      </nav>
+      
+  <section class="products-group">
+  <div class="wrapper">
+    <div class="hero">Clothing</div>
+    <ul>
+      <li itemscope itemtype="http://schema.org/Product" class="product-item">
+        <div class="product-image">
+            <img itemprop="image" src="./media/products-new/men1.jpg" alt="Energizer AAA Batteries"/>
+        </div>
+        <div class="product-info">
+            <strong itemprop="name">Legendary Whitetails</strong>
+            <span itemprop="price" class="price">$100</span>
+        </div>
+        <div itemprop="description" class="product-description">
+            Men's Journeyman Shirt Jacket, Flannel Lined Shacket for Men, Water-Resistant Coat Rugged Fall Clothing
+        </div>
+        <div itemprop="availability" class="availability">
+           In stock
+        </div>
+        <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+        <button type="button" class="add-to-cart-btn">Add to Cart</button>
+    </li>
+   
+        <li itemscope itemtype="http://schema.org/Product" class="product-item">
+          <div class="product-image">
+              <img itemprop="image" src="./media/products-new/men2.jpg" alt="Energizer AAA Batteries"/>
+          </div>
+          <div class="product-info">
+              <strong itemprop="name">Men's Suits</strong>
+              <span itemprop="price" class="price">$83</span>
+          </div>
+          <div itemprop="description" class="product-description">
+            3 Pieces Slim Fit Suit 2 Button Business Prom Formal Suit Blazer Jacket Vest Pants Set
+          </div>
+          <div itemprop="availability" class="availability">
+             In stock
+          </div>
+          <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+          <button type="button" class="add-to-cart-btn">Add to Cart</button>
+      </li>
+
+
+      <li itemscope itemtype="http://schema.org/Product" class="product-item">
+        <div class="product-image">
+            <img itemprop="image" src="./media/products-new/men3.jpg" alt="Energizer AAA Batteries"/>
+        </div>
+        <div class="product-info">
+            <strong itemprop="name">Gioberti</strong>
+            <span itemprop="price" class="price">$55</span>
+        </div>
+        <div itemprop="description" class="product-description">
+            Cotton Brushed and Soft Twill Shirt Jacket with Flannel Lining
+        </div>
+        <div itemprop="availability" class="availability">
+           In stock
+        </div>
+        <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+        <button type="button" class="add-to-cart-btn">Add to Cart</button>
+    </li>
+
+    <li itemscope itemtype="http://schema.org/Product" class="product-item">
+        <div class="product-image">
+            <img itemprop="image" src="./media/products-new/men4.jpg" alt="GoPro HERO12 "/>
+        </div>
+        <div class="product-info">
+            <strong itemprop="name">DEMEANOR</strong>
+            <span itemprop="price" class="price">$25</span>
+        </div>
+        <div itemprop="description" class="product-description">
+            Mens Dress Shirts Slim Fit Button Down Shirts - Stain Repellant Long Sleeve Dress Shirts for Men Wrinkle Free
+        </div>
+        <div itemprop="availability" class="availability">
+           In stock
+        </div>
+        <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+        <button type="button" class="add-to-cart-btn">Add to Cart</button>
+    </li>
+
+
+    <li itemscope itemtype="http://schema.org/Product" class="product-item">
+        <div class="product-image">
+            <img itemprop="image" src="./media/products-new/men5.jpg" alt="GoPro HERO12 "/>
+        </div>
+        <div class="product-info">
+            <strong itemprop="name">Nike Performance</strong>
+            <span itemprop="price" class="price">$32</span>
+        </div>
+        <div itemprop="description" class="product-description">
+            Cushion Crew Socks with Band (6 Pairs)
+        </div>
+        <div itemprop="availability" class="availability">
+           In stock
+        </div>
+        <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+        <button type="button" class="add-to-cart-btn">Add to Cart</button>
+    </li>
+
+    <li itemscope itemtype="http://schema.org/Product" class="product-item">
+        <div class="product-image">
+            <img itemprop="image" src="./media/products-new/men6.jpg" alt="GoPro HERO12 "/>
+        </div>
+        <div class="product-info">
+            <strong itemprop="name">PURE CHAMP</strong>
+            <span itemprop="price" class="price">$40</span>
+        </div>
+        <div itemprop="description" class="product-description">
+            Mens 3 Pack Fleece Active Athletic Workout Jogger Sweatpants
+        </div>
+        <div itemprop="availability" class="availability">
+           In stock
+        </div>
+        <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+        <button type="button" class="add-to-cart-btn">Add to Cart</button>
+    </li>
+
+    <li itemscope itemtype="http://schema.org/Product" class="product-item">
+        <div class="product-image">
+            <img itemprop="image" src="./media/products-new/men7.jpg" alt="GoPro HERO12 "/>
+        </div>
+        <div class="product-info">
+            <strong itemprop="name">Hanes</strong>
+            <span itemprop="price" class="price">$15</span>
+        </div>
+        <div itemprop="description" class="product-description">
+            Men's Ecosmart Fleece Sweatshirt, Cotton-blend Pullover
+        </div>
+        <div itemprop="availability" class="availability">
+           In stock
+        </div>
+        <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+        <button type="button" class="add-to-cart-btn">Add to Cart</button>
+    </li>
+
+
+    <li itemscope itemtype="http://schema.org/Product" class="product-item">
+        <div class="product-image">
+            <img itemprop="image" src="./media/products-new/men8.jpg" alt="GoPro HERO12 "/>
+        </div>
+        <div class="product-info">
+            <strong itemprop="name">Huckberry</strong>
+            <span itemprop="price" class="price">$300</span>
+        </div>
+        <div itemprop="description" class="product-description">
+            Flint and Tinder Men's Flannel-Lined Waxed Trucker Jacket, Water & Weather Resistant
+        </div>
+        <div itemprop="availability" class="availability">
+           In stock
+        </div>
+        <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+        <button type="button" class="add-to-cart-btn">Add to Cart</button>
+    </li>
+
+
+    <li itemscope itemtype="http://schema.org/Product" class="product-item">
+        <div class="product-image">
+            <img itemprop="image" src="./media/products-new/men9.jpg" alt="GoPro HERO12 "/>
+        </div>
+        <div class="product-info">
+            <strong itemprop="name">Hanes</strong>
+            <span itemprop="price" class="price">$50</span>
+        </div>
+        <div itemprop="description" class="product-description">
+            Men's Boxer Briefs, Soft and Breathable Cotton Underwear
+        </div>
+        <div itemprop="availability" class="availability">
+           In stock
+        </div>
+        <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+        <button type="button" class="add-to-cart-btn">Add to Cart</button>
+    </li>
+
+    <li itemscope itemtype="http://schema.org/Product" class="product-item">
+        <div class="product-image">
+            <img itemprop="image" src="./media/products-new/men0.jpg" alt="GoPro HERO12 "/>
+        </div>
+        <div class="product-info">
+            <strong itemprop="name">Gildan</strong>
+            <span itemprop="price" class="price">$75</span>
+        </div>
+        <div itemprop="description" class="product-description">
+            Men's Crew T-Shirts, Multipack, Style 
+        </div>
+        <div itemprop="availability" class="availability">
+           In stock
+        </div>
+        <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+        <button type="button" class="add-to-cart-btn">Add to Cart</button>
+    </li>
+    </ul>
+    <div class="hero">Shoes</div>
+    <ul>
+        <li itemscope itemtype="http://schema.org/Product" class="product-item">
+            <div class="product-image">
+                <img itemprop="image" src="./media/products-new/Mshoes1.jpg" alt="GoPro HERO12 "/>
+            </div>
+            <div class="product-info">
+                <strong itemprop="name">KEEN</strong>
+                <span itemprop="price" class="price">$37</span>
+            </div>
+            <div itemprop="description" class="product-description">
+                Men's Milwaukee 6"
+            </div>
+            <div itemprop="availability" class="availability">
+               In stock
+            </div>
+            <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+            <button type="button" class="add-to-cart-btn">Add to Cart</button>
+        </li>
+
+        <li itemscope itemtype="http://schema.org/Product" class="product-item">
+            <div class="product-image">
+                <img itemprop="image" src="./media/products-new/Mshoes2.jpg" alt="GoPro HERO12 "/>
+            </div>
+            <div class="product-info">
+                <strong itemprop="name">LARN SAFETY</strong>
+                <span itemprop="price" class="price">$50</span>
+            </div>
+            <div itemprop="description" class="product-description">
+                Men Work Shoes
+            </div>
+            <div itemprop="availability" class="availability">
+               In stock
+            </div>
+            <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+            <button type="button" class="add-to-cart-btn">Add to Cart</button>
+        </li>
+
+        <li itemscope itemtype="http://schema.org/Product" class="product-item">
+            <div class="product-image">
+                <img itemprop="image" src="./media/products-new/Mshoes3.jpg" alt="GoPro HERO12 "/>
+            </div>
+            <div class="product-info">
+                <strong itemprop="name">ulogu Steel</strong>
+                <span itemprop="price" class="price">$49</span>
+            </div>
+            <div itemprop="description" class="product-description">
+                Toe Shoes
+            </div>
+            <div itemprop="availability" class="availability">
+               In stock
+            </div>
+            <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+            <button type="button" class="add-to-cart-btn">Add to Cart</button>
+        </li>
+
+        <li itemscope itemtype="http://schema.org/Product" class="product-item">
+            <div class="product-image">
+                <img itemprop="image" src="./media/products-new/Mshoes4.jpg" alt="GoPro HERO12 "/>
+            </div>
+            <div class="product-info">
+                <strong itemprop="name">SHULOOK </strong>
+                <span itemprop="price" class="price">$59</span>
+            </div>
+            <div itemprop="description" class="product-description">
+                Men's Snow Boots
+            </div>
+            <div itemprop="availability" class="availability">
+               In stock
+            </div>
+            <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+            <button type="button" class="add-to-cart-btn">Add to Cart</button>
+        </li>
+
+
+        <li itemscope itemtype="http://schema.org/Product" class="product-item">
+            <div class="product-image">
+                <img itemprop="image" src="./media/products-new/Mshoes5.jpg" alt="GoPro HERO12 "/>
+            </div>
+            <div class="product-info">
+                <strong itemprop="name">ROCKMARK </strong>
+                <span itemprop="price" class="price">$80</span>
+            </div>
+            <div itemprop="description" class="product-description">
+                Men's Winter Snow Boots
+            </div>
+            <div itemprop="availability" class="availability">
+               In stock
+            </div>
+            <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+            <button type="button" class="add-to-cart-btn">Add to Cart</button>
+        </li>
+
+        <li itemscope itemtype="http://schema.org/Product" class="product-item">
+            <div class="product-image">
+                <img itemprop="image" src="./media/products-new/Mshoes6.jpg" alt="GoPro HERO12 "/>
+            </div>
+            <div class="product-info">
+                <strong itemprop="name">Sonlleivoo</strong>
+                <span itemprop="price" class="price">$35</span>
+            </div>
+            <div itemprop="description" class="product-description">
+                Waterproof Light Weight High
+            </div>
+            <div itemprop="availability" class="availability">
+               In stock
+            </div>
+            <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+            <button type="button" class="add-to-cart-btn">Add to Cart</button>
+        </li>
+
+        <li itemscope itemtype="http://schema.org/Product" class="product-item">
+            <div class="product-image">
+                <img itemprop="image" src="./media/products-new/Mshoes7.jpg" alt="GoPro HERO12 "/>
+            </div>
+            <div class="product-info">
+                <strong itemprop="name">NORTIV 8</strong>
+                <span itemprop="price" class="price">$32</span>
+            </div>
+            <div itemprop="description" class="product-description">
+                Hiking Boots
+            </div>
+            <div itemprop="availability" class="availability">
+               In stock
+            </div>
+            <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+            <button type="button" class="add-to-cart-btn">Add to Cart</button>
+        </li>
+
+        <li itemscope itemtype="http://schema.org/Product" class="product-item">
+            <div class="product-image">
+                <img itemprop="image" src="./media/products-new/Mshoes8.jpg" alt="GoPro HERO12 "/>
+            </div>
+            <div class="product-info">
+                <strong itemprop="name">NORTIV </strong>
+                <span itemprop="price" class="price">$57</span>
+            </div>
+            <div itemprop="description" class="product-description">
+                Women's Waterproof
+            </div>
+            <div itemprop="availability" class="availability">
+               In stock
+            </div>
+            <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+            <button type="button" class="add-to-cart-btn">Add to Cart</button>
+        </li>
+
+
+        <li itemscope itemtype="http://schema.org/Product" class="product-item">
+            <div class="product-image">
+                <img itemprop="image" src="./media/products-new/Mshoes9.jpg" alt="GoPro HERO12 "/>
+            </div>
+            <div class="product-info">
+                <strong itemprop="name">Columbia</strong>
+                <span itemprop="price" class="price">$104</span>
+            </div>
+            <div itemprop="description" class="product-description">
+                Newton Ridge Plus
+            </div>
+            <div itemprop="availability" class="availability">
+               In stock
+            </div>
+            <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+            <button type="button" class="add-to-cart-btn">Add to Cart</button>
+        </li>
+
+        <li itemscope itemtype="http://schema.org/Product" class="product-item">
+            <div class="product-image">
+                <img itemprop="image" src="./media/products-new/Mshoes0.jpg" alt="GoPro HERO12 "/>
+            </div>
+            <div class="product-info">
+                <strong itemprop="name">KEEN</strong>
+                <span itemprop="price" class="price">$89</span>
+            </div>
+            <div itemprop="description" class="product-description">
+                Men's Targhee 2 Mid
+            </div>
+            <div itemprop="availability" class="availability">
+               In stock
+            </div>
+            <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+            <button type="button" class="add-to-cart-btn">Add to Cart</button>
+        </li>
+    </ul>
+    <div class="hero">Watches</div>
+    <ul>
+        <li itemscope itemtype="http://schema.org/Product" class="product-item">
+            <div class="product-image">
+                <img itemprop="image" src="./media/products-new/watches1.jpg" alt="GoPro HERO12 "/>
+            </div>
+            <div class="product-info">
+                <strong itemprop="name">OLEVS</strong>
+                <span itemprop="price" class="price">$168</span>
+            </div>
+            <div itemprop="description" class="product-description">
+                Automatic Mechanical
+            </div>
+            <div itemprop="availability" class="availability">
+               In stock
+            </div>
+            <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+            <button type="button" class="add-to-cart-btn">Add to Cart</button>
+        </li>
+
+        <li itemscope itemtype="http://schema.org/Product" class="product-item">
+            <div class="product-image">
+                <img itemprop="image" src="./media/products-new/watches2.jpg" alt="GoPro HERO12 "/>
+            </div>
+            <div class="product-info">
+                <strong itemprop="name">Amazfit Bip</strong>
+                <span itemprop="price" class="price">$69</span>
+            </div>
+            <div itemprop="description" class="product-description">
+                Pro Smart Watch
+            </div>
+            <div itemprop="availability" class="availability">
+               In stock
+            </div>
+            <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+            <button type="button" class="add-to-cart-btn">Add to Cart</button>
+        </li>
+
+        <li itemscope itemtype="http://schema.org/Product" class="product-item">
+            <div class="product-image">
+                <img itemprop="image" src="./media/products-new/watches3.jpg" alt="GoPro HERO12 "/>
+            </div>
+            <div class="product-info">
+                <strong itemprop="name">Citizen Men's</strong>
+                <span itemprop="price" class="price">$130</span>
+            </div>
+            <div itemprop="description" class="product-description">
+                Eco-Drive Sport Casual
+            </div>
+            <div itemprop="availability" class="availability">
+               In stock
+            </div>
+            <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+            <button type="button" class="add-to-cart-btn">Add to Cart</button>
+        </li>
+
+        <li itemscope itemtype="http://schema.org/Product" class="product-item">
+            <div class="product-image">
+                <img itemprop="image" src="./media/products-new/watches4.jpg" alt="GoPro HERO12 "/>
+            </div>
+            <div class="product-info">
+                <strong itemprop="name">Fossil Men's</strong>
+                <span itemprop="price" class="price">$140</span>
+            </div>
+            <div itemprop="description" class="product-description">
+                Coachman Quartz
+            </div>
+            <div itemprop="availability" class="availability">
+               In stock
+            </div>
+            <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+            <button type="button" class="add-to-cart-btn">Add to Cart</button>
+        </li>
+
+        <li itemscope itemtype="http://schema.org/Product" class="product-item">
+            <div class="product-image">
+                <img itemprop="image" src="./media/products-new/watches5.jpg" alt="GoPro HERO12 "/>
+            </div>
+            <div class="product-info">
+                <strong itemprop="name">GOLDEN HOUR</strong>
+                <span itemprop="price" class="price">$43</span>
+            </div>
+            <div itemprop="description" class="product-description">
+                Fashion Business Mens
+            </div>
+            <div itemprop="availability" class="availability">
+               In stock
+            </div>
+            <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+            <button type="button" class="add-to-cart-btn">Add to Cart</button>
+        </li>
+
+        <li itemscope itemtype="http://schema.org/Product" class="product-item">
+            <div class="product-image">
+                <img itemprop="image" src="./media/products-new/watches6.jpg" alt="GoPro HERO12 "/>
+            </div>
+            <div class="product-info">
+                <strong itemprop="name">KXAITO </strong>
+                <span itemprop="price" class="price">$20</span>
+            </div>
+            <div itemprop="description" class="product-description">
+                Men's Watches Sports
+            </div>
+            <div itemprop="availability" class="availability">
+               In stock
+            </div>
+            <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+            <button type="button" class="add-to-cart-btn">Add to Cart</button>
+        </li>
+
+        <li itemscope itemtype="http://schema.org/Product" class="product-item">
+            <div class="product-image">
+                <img itemprop="image" src="./media/products-new/watches7.jpg" alt="GoPro HERO12 "/>
+            </div>
+            <div class="product-info">
+                <strong itemprop="name">Paras Crown</strong>
+                <span itemprop="price" class="price">$123</span>
+            </div>
+            <div itemprop="description" class="product-description">
+                Mens Watches Fashion 
+            </div>
+            <div itemprop="availability" class="availability">
+               In stock
+            </div>
+            <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+            <button type="button" class="add-to-cart-btn">Add to Cart</button>
+        </li>
+
+        <li itemscope itemtype="http://schema.org/Product" class="product-item">
+            <div class="product-image">
+                <img itemprop="image" src="./media/products-new/watches8.jpg" alt="GoPro HERO12 "/>
+            </div>
+            <div class="product-info">
+                <strong itemprop="name">Invicta Men's </strong>
+                <span itemprop="price" class="price">$89</span>
+            </div>
+            <div itemprop="description" class="product-description">
+                Pro Diver Analog 
+            </div>
+            <div itemprop="availability" class="availability">
+               In stock
+            </div>
+            <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+            <button type="button" class="add-to-cart-btn">Add to Cart</button>
+        </li>
+
+        <li itemscope itemtype="http://schema.org/Product" class="product-item">
+            <div class="product-image">
+                <img itemprop="image" src="./media/products-new/watches9.jpg" alt="GoPro HERO12 "/>
+            </div>
+            <div class="product-info">
+                <strong itemprop="name">Bulova Classic</strong>
+                <span itemprop="price" class="price">$180</span>
+            </div>
+            <div itemprop="description" class="product-description">
+                Two-Tone Stainless Steel
+            </div>
+            <div itemprop="availability" class="availability">
+               In stock
+            </div>
+            <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+            <button type="button" class="add-to-cart-btn">Add to Cart</button>
+        </li>
+
+        <li itemscope itemtype="http://schema.org/Product" class="product-item">
+            <div class="product-image">
+                <img itemprop="image" src="./media/products-new/watches0.jpg" alt="GoPro HERO12 "/>
+            </div>
+            <div class="product-info">
+                <strong itemprop="name">OLEVS </strong>
+                <span itemprop="price" class="price">$38</span>
+            </div>
+            <div itemprop="description" class="product-description">
+                Mens Watches Chronograph
+            </div>
+            <div itemprop="availability" class="availability">
+               In stock
+            </div>
+            <div class="rating">★★★★☆</div> <!-- Adjust the rating as needed -->
+            <button type="button" class="add-to-cart-btn">Add to Cart</button>
+        </li>
+    </ul>
+
+
+    </section>
+    <section class="products-group products-banner">
+        <div class="wrapper">
+            <div class="hero">Subscribe to event notifications!</div>
+            <div class="put-email">
+                <form>
+                    <label for="email-input" class="visually-hidden">Email:</label>
+                    <input type="email" id="email-input" name="email" placeholder="Your email" required />
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="wrapper">
+            <div class="column">
+                <img class="footer-logo" src="./media/products-new/logo.jpeg-removebg-preview (2).png" alt="" />
+            </div>
+            <section class="column">
+                <h1>Subscription</h1>
+                <ul>
+                    <li><a>Sign up</a></li>
+                    <li><a href="Login.html">Log in</a></li>
+                    <li><a>Help</a></li>
+                </ul>
+            </section>
+            <section class="column">
+                <h1>Policy</h1>
+                <ul>
+                    <li><a>Sales Agreement</a></li>
+                    <li><a>Privacy</a></li>
+                    <li><a>Data policy</a></li>
+                </ul>
+            </section>
+            <section class="column">
+                <h1>Account</h1>
+                <ul>
+                    <li><a>My Subscription</a></li>
+                    <li><a href="Cart.html">Cart</a></li>
+                </ul>
+            </section>
+            <div class="social-links">
+                <a href="https://facebook.com/" rel="noopener noreferrer" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com//" rel="noopener noreferrer" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://twitter.com/" rel="noopener noreferrer" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contactUS.html">Contact</a></li>
+                </ul>
+            </div>
+            <p class="student-note">The website is a student project and is not for commercial use.</p>
+        </div>
+    </footer>
+</body>
+</html>
